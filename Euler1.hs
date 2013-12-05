@@ -12,4 +12,4 @@ main :: IO ()
 main = putStrLn $ "the Answer is " ++ show solveEuler1
 
 solveEuler1 :: Int
-solveEuler1 = sum [ i | i <- [1..1000-1], i `mod` 3 == 0 || i `mod` 5 == 0 ]
+solveEuler1 = sum [ i | i <- [1..1000], i `mod` 3 == 0 || i `mod` 5 == 0 ]
